@@ -1,6 +1,6 @@
 # rockwind-azure
 
-rockwind-azure is a [Pure Cloud App](http://templates.servicestack.net/docs/web-apps#pure-cloud-apps) Rockwind example website running entirely on Azure
+rockwind-azure is a [Pure Cloud App](https://sharpscript.net/docs/sharp-apps#pure-cloud-apps) Rockwind example website running entirely on Azure
 
 [![](https://raw.githubusercontent.com/NetCoreApps/TemplatePages/master/src/wwwroot/assets/img/screenshots/rockwind.png)](http://rockwind-aws.web-app.io)
 
