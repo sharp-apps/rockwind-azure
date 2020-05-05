@@ -3,11 +3,10 @@
 <head>
 <title>Dead Rockstars - {{ title }}</title>
 {{#if debug}}<script>{{ '/js/hot-loader.js' | includeFile }}</script>{{/if}}
-<link href="{{ '../../default.css' | resolveAsset }}" rel="stylesheet" />
-
+<link href="../../default.css" rel="stylesheet" />
 <style type="text/css">
 body {
-    background: #ACDBCE url({{ '../../img/tileable_wood_texture.png' | resolveAsset }});
+    background: #ACDBCE url(../../img/tileable_wood_texture.png);
     background-attachment: fixed;
 }
 a {

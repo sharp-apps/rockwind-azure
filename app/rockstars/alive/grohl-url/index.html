@@ -3,7 +3,7 @@ title: Dave Grohl
 -->
 <div id="content-page">
     
-    <img src="{{ '../grohl/splash.jpg' | resolveAsset }}" id="splash" alt="Dave Grohl" />
+    <img src="../grohl/splash.jpg" id="splash" alt="Dave Grohl" />
     <p>
         David Eric "Dave" Grohl is an American rock musician, multi-instrumentalist, and 
         singer-songwriter, who is the lead vocalist, guitarist, primary songwriter and founder of 
@@ -32,6 +32,6 @@ title: Dave Grohl
     </dl>
 
     {{ "https://raw.githubusercontent.com/NetCoreApps/TemplatePages/master/src/wwwroot/usecases/rockstar-files/alive/grohl/content.md" 
-       | includeUrlWithCache | markdown }}
+       |> includeUrlWithCache |> markdown }}
 
 </div>
