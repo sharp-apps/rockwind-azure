@@ -2,7 +2,7 @@
 
 rockwind-azure is a [Pure Cloud App](https://sharpscript.net/docs/sharp-apps#pure-cloud-apps) Rockwind example website running entirely on Azure
 
-[![](https://raw.githubusercontent.com/NetCoreApps/TemplatePages/master/src/wwwroot/assets/img/screenshots/rockwind.png)](http://rockwind-aws.web-app.io)
+[![](https://raw.githubusercontent.com/ServiceStack/sharpscript/master/src/wwwroot/assets/img/screenshots/rockwind.png)](http://rockwind-aws.web-app.io)
 
 ## Install
 
@@ -15,12 +15,12 @@ Run as a Desktop App (Windows only):
 
 Run as a .NET Core Web App (Windows, macOS, Linux):
 
-    $ dotnet tool install -g web
+    $ dotnet tool install -g x
 
     $ web install rockwind-azure
-    $ cd rockwind-azure && web app.sqlite.settings
+    $ cd rockwind-azure && x app.sqlite.settings
 
-> Requires [.NET Core 2.1](https://www.microsoft.com/net/download/dotnet-core/2.1).
+> Requires [.NET Core 3.1](https://www.microsoft.com/net/download/dotnet-core/3.1).
 
 ### Run on Azure
 
